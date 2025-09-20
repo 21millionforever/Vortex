@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		441E37C62E7E6C33003D2034 /* MistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441E37C52E7E6C33003D2034 /* MistView.swift */; };
+		441E37C92E7E6C5C003D2034 /* Vortex in Frameworks */ = {isa = PBXBuildFile; productRef = 441E37C82E7E6C5C003D2034 /* Vortex */; };
 		51FA8C9A2B580CB000C831CA /* SandboxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FA8C992B580CB000C831CA /* SandboxApp.swift */; };
 		51FA8C9C2B580CB000C831CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FA8C9B2B580CB000C831CA /* ContentView.swift */; };
 		51FA8C9E2B580CB100C831CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51FA8C9D2B580CB100C831CA /* Assets.xcassets */; };
@@ -23,10 +25,10 @@
 		51FA8CC02B5815FE00C831CA /* SparkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FA8CBF2B5815FE00C831CA /* SparkView.swift */; };
 		51FA8CC22B58162A00C831CA /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FA8CC12B58162A00C831CA /* SplashView.swift */; };
 		51FA8CC52B58263D00C831CA /* PlatformShims.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FA8CC42B58263D00C831CA /* PlatformShims.swift */; };
-		51FA8CD12B58415600C831CA /* Vortex in Frameworks */ = {isa = PBXBuildFile; productRef = 51FA8CD02B58415600C831CA /* Vortex */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		441E37C52E7E6C33003D2034 /* MistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MistView.swift; sourceTree = "<group>"; };
 		51FA8C962B580CB000C831CA /* Sandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sandbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51FA8C992B580CB000C831CA /* SandboxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandboxApp.swift; sourceTree = "<group>"; };
 		51FA8C9B2B580CB000C831CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51FA8CD12B58415600C831CA /* Vortex in Frameworks */,
+				441E37C92E7E6C5C003D2034 /* Vortex in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +113,7 @@
 				51FA8CBD2B58158500C831CA /* SnowView.swift */,
 				51FA8CBF2B5815FE00C831CA /* SparkView.swift */,
 				51FA8CC12B58162A00C831CA /* SplashView.swift */,
+				441E37C52E7E6C33003D2034 /* MistView.swift */,
 			);
 			path = PreviewViews;
 			sourceTree = "<group>";
@@ -132,7 +135,7 @@
 			);
 			name = Sandbox;
 			packageProductDependencies = (
-				51FA8CD02B58415600C831CA /* Vortex */,
+				441E37C82E7E6C5C003D2034 /* Vortex */,
 			);
 			productName = Sandbox;
 			productReference = 51FA8C962B580CB000C831CA /* Sandbox.app */;
@@ -163,7 +166,7 @@
 			);
 			mainGroup = 51FA8C8D2B580CB000C831CA;
 			packageReferences = (
-				51FA8CCF2B58415600C831CA /* XCRemoteSwiftPackageReference "Vortex" */,
+				441E37C72E7E6C5C003D2034 /* XCRemoteSwiftPackageReference "Vortex" */,
 			);
 			productRefGroup = 51FA8C972B580CB000C831CA /* Products */;
 			projectDirPath = "";
@@ -193,6 +196,7 @@
 			files = (
 				51FA8CBA2B5814F000C831CA /* RainView.swift in Sources */,
 				51FA8CC52B58263D00C831CA /* PlatformShims.swift in Sources */,
+				441E37C62E7E6C33003D2034 /* MistView.swift in Sources */,
 				51FA8CB82B58149000C831CA /* MagicView.swift in Sources */,
 				51FA8CC02B5815FE00C831CA /* SparkView.swift in Sources */,
 				51FA8CB22B5810F300C831CA /* FireView.swift in Sources */,
@@ -337,7 +341,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Sandbox/Preview Content\"";
-				DEVELOPMENT_TEAM = B5C26XE59E;
+				DEVELOPMENT_TEAM = DQTMK46VJQ;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -373,7 +377,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Sandbox/Preview Content\"";
-				DEVELOPMENT_TEAM = B5C26XE59E;
+				DEVELOPMENT_TEAM = DQTMK46VJQ;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -423,20 +427,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		51FA8CCF2B58415600C831CA /* XCRemoteSwiftPackageReference "Vortex" */ = {
+		441E37C72E7E6C5C003D2034 /* XCRemoteSwiftPackageReference "Vortex" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/twostraws/Vortex";
+			repositoryURL = "https://github.com/21millionforever/Vortex.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
+				branch = development;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		51FA8CD02B58415600C831CA /* Vortex */ = {
+		441E37C82E7E6C5C003D2034 /* Vortex */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 51FA8CCF2B58415600C831CA /* XCRemoteSwiftPackageReference "Vortex" */;
+			package = 441E37C72E7E6C5C003D2034 /* XCRemoteSwiftPackageReference "Vortex" */;
 			productName = Vortex;
 		};
 /* End XCSwiftPackageProductDependency section */

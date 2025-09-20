@@ -22,6 +22,7 @@ struct ContentView: View {
                 NavigationLink("Snow", destination: SnowView.init)
                 NavigationLink("Spark", destination: SparkView.init)
                 NavigationLink("Splash", destination: SplashView.init)
+                NavigationLink("Mist", destination: MistView.init)
             }
             .navigationTitle("Vortex Sandbox")
         } detail: {
