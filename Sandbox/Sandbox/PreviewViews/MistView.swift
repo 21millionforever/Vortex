@@ -43,12 +43,74 @@ struct MistView: View {
             
             
         }
-        .navigationSubtitle("Demonstrates the smoke preset")
         .ignoresSafeArea(edges: .all)
-        .background(.black)
     }
 }
 
+//struct MistView: View {
+//    let mist: VortexSystem = {
+//        VortexSystem(
+//            tags: ["mist"],
+//            position: [0.5, 0.5],
+//            shape: .point,
+//            birthRate: 0.2,
+//            lifespan: 15,
+//            speed: 0.04,
+//            angle: .degrees(270),
+//            angleRange: .degrees(30),
+//            acceleration: [0, -0.02],
+//            dampingFactor: 0.5,
+//            colors: .ramp(.purple.opacity(0.7), .purple.opacity(0)),
+//            size: 1,
+//            sizeVariation: 0.5,
+//            sizeMultiplierAtDeath: 0,
+//            startTimeOffset: 5
+//        )
+//    }()
+//    
+//    let mist2: VortexSystem = {
+//        VortexSystem(
+//            tags: ["mist"],
+//            position: [0.5, 1],
+//            shape: .point,
+//            birthRate: 0.2,
+//            lifespan: 15,
+//            speed: 0.04,
+//            angle: .degrees(270),
+//            angleRange: .degrees(60),
+//            acceleration: [0, -0.02],
+//            dampingFactor: 0.5,
+//            colors: .ramp(.purple.opacity(0.7), .purple.opacity(0)),
+//            size: 1,
+//            sizeVariation: 0.5,
+//            sizeMultiplierAtDeath: 0,
+//            startTimeOffset: 5
+//        )
+//    }()
+//    
+//    var body: some View {
+//        ZStack {
+//            VortexView(mist) {
+//                Image("Smoke1")
+//                    .frame(width: 34)
+//                    .blur(radius:15)
+//                    .tag("mist")
+//            }
+//            
+//            VortexView(mist2) {
+//                Image("Smoke1")
+//                    .frame(width: 34)
+//                    .blur(radius:15)
+//                    .tag("mist")
+//            }
+//        }
+//        .navigationSubtitle("Demonstrates the smoke preset")
+//        .ignoresSafeArea(edges: .all)
+//        .background(.black)
+//    }
+//}
+
 #Preview {
     MistView()
+        .background(.black)
 }
